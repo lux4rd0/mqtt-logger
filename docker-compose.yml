@@ -9,6 +9,6 @@ services:
       MQTT_LOGGER_MQTT_PORT: 1883
       MQTT_LOGGER_MQTT_USERNAME: <username>
       TZ: America/Chicago
-    image: docker01.tylephony.com:5000/lux4rd0/mqtt_logger:latest
+    image: lux4rd0/mqtt_logger:latest
     restart: always
 version: '3.3'
