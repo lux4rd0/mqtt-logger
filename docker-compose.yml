@@ -9,6 +9,7 @@ services:
       MQTT_LOGGER_MQTT_PASSWORD: <password>
       MQTT_LOGGER_MQTT_PORT: 1883
       MQTT_LOGGER_MQTT_USERNAME: <username>
+      MQTT_LOGGER_MQTT_TOPICS: '+/debug homeassistant/#'
       TZ: America/Chicago
     image: lux4rd0/mqtt_logger:latest
     restart: always
